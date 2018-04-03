@@ -51,6 +51,7 @@ signs dataset:
 
 #### 2. Include an exploratory visualization of the dataset.
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed. The distribution is similar in train，valid and test Set. The count of each traffic sign is not same in each data set. For instance, the sign "Speed limit (30km/h)" is much more than the sign "Speed limit(20km/h)".
+
 ![](writeup_images/data_set.png)
 
 
@@ -80,7 +81,9 @@ To add more data to the data set, I used the following techniques.
 I used the keras and numpy to realize these distortions of images. I used one of these distortions for the original images. It depends on a random value "lot". For each image, only one operation will be chosen randomly. 
 
 Here is an example of an original image and an augmented image:
+
 ![](writeup_images/augmentation.png)
+
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:
